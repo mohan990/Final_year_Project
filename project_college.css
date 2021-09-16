@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.navbar-brand{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.back_btn{
+    height: 30px;
+}
+.toggle-spacing{
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-colr{
+    background: rgb(9, 122, 9);
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    background: linear-gradient(rgb(102, 102, 221),lightseagreen);
+}
+.nav-link{
+font-weight: bold;
+color: black;
+}
+a.item-dp{
+    border-bottom: 1px solid rgba(117, 113, 113, 0.3);
+    
+}
+.logo{
+    height: 30px;
+}
+a.dropdown-item{
+    background: whitesmoke;
+    text-align: center;
+}
+a.dropdown-item:hover{
+    background: lightseagreen;
+}
+.dropdown{
+    background: lightseagreen;
+}
+  body{
+    box-sizing: border-box;
+  }
+  table,tr,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  table{
+    width: 100%;
+    height: 85vh;
+
+  }
+  div.nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background :rgb(86, 86, 219);
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .row1{
+    background: linear-gradient(green, white, green);
+  }
+  .row2{
+    background: rgb(8, 173, 8);
+  }
+  .row3{
+    background:rgb(248, 164, 178);
+  }
+  .row4{
+    background: rgb(226, 226, 110);
+  }
+  .row5{
+    background: rgb(118, 118, 211);
+  }
+  .row6{
+    background: rgb(238, 118, 238);
+  }
+  .row7{
+    background: rgb(42, 211, 202);
+  }
+  @media (min-width:992px) and (max-width:1440px)
+  
+  {
+    table,tr,th,td{
+      font-size: 30px;
+    }
+  }
+  td.head{
+      color:black;
+  }
+  td{
+      color:whitesmoke ;
+  }
