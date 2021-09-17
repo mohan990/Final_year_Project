@@ -104,3 +104,9 @@ a.dropdown-item:hover{
   td{
       color:whitesmoke ;
   }
+@media (max-width:430px)
+{
+  button.btn-info{
+    display: none;
+  }
+}
